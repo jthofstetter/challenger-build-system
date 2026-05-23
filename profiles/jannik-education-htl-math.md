@@ -1,10 +1,26 @@
 # Jannik — Education Build: HTL IT Mathematics
 
-## Status
+## Version
 
-Version: 0.1  
-Confidence: Medium-Low  
-Reason: Ring-System ist definiert, aber exakte öffentliche Notenverteilungen für HTL IT / Mathematik / Jahrgang fehlen noch.
+Version: 0.2  
+Status: research-backed estimate  
+Confidence: Medium for Mathematics, Low–Medium for broader HTL/IT rings
+
+---
+
+## Final Current Prediction
+
+```text
+Mathematics within HTL/HLT:
+Gold floor
+Platinum predicted
+Emerald ceiling
+```
+
+```text
+Overall Education Build:
+Gold / Platinum
+```
 
 ---
 
@@ -12,7 +28,8 @@ Reason: Ring-System ist definiert, aber exakte öffentliche Notenverteilungen f�
 
 ```text
 HTL IT abgeschlossen
-Matura Mathematik: Note 2
+Matura / Abschlussprüfung Mathematik: Note 2
+KI-Wahlfach: Note 2
 ```
 
 ---
@@ -25,203 +42,130 @@ Europa
 → Niederösterreich / Waldviertel / Krems
 → HTL Krems
 → Informationstechnologie
-→ Matura
-→ Mathematik
+→ Reife- und Diplomprüfung / Matura
+→ Angewandte Mathematik
 → Note 2
 ```
 
 ---
 
-## Ring Analysis
+# Key Research Result
 
-| Ring | Ebene | Bewertbar? | Bedeutung |
-|---:|---|---|---|
-| 1 | Europa | Ja, aber sehr grob | große Bildungsregion |
-| 2 | Österreich | Ja | nationales Bildungssystem |
-| 3 | Niederösterreich / Waldviertel / Krems | Ja | regionale Bildungsumgebung |
-| 4 | HTL Krems | Ja | konkrete technische Schule |
-| 5 | Informationstechnologie | Ja | technischer IT-Zweig |
-| 6 | Matura | Ja | Abschluss-/Survival-Ebene |
-| 7 | Mathematik | Ja | Core-Fach mit hoher Difficulty |
-| 8 | Note 2 | Ja | konkrete Performance |
+Die wichtigste öffentlich belegbare Statistik ist:
 
----
+## HTL/HLT Angewandte Mathematik 2024/25
 
-## Known Hard Facts
+| Note | Anteil |
+|---:|---:|
+| 1 | 1.0 % |
+| 2 | 19.7 % |
+| 3 | 33.2 % |
+| 4 | 28.7 % |
+| 5 | 17.3 % |
 
-| Fakt | Wert | Confidence |
-|---|---:|---|
-| HTL ist eine österreichische berufsbildende höhere technische Schulform | Ja | High |
-| HTL-Normalform dauert typischerweise 5 Jahre | 5 Jahre | High |
-| Abschluss der höheren Abteilung erfolgt mit Reife- und Diplomprüfung | Ja | High |
-| HTL Krems hat eine höhere Abteilung für Informationstechnologie | Ja | High |
-| HTL Krems IT beinhaltet u. a. Programmierung, Datenbanken, Medientechnik, Netzwerktechnik und KI-Vertiefung | Ja | Medium |
-| Jannik hat HTL IT abgeschlossen | Ja | User-Provided |
-| Jannik hat Mathematik mit Note 2 absolviert | Ja | User-Provided |
-
----
-
-## Missing Data Needed
-
-Um den Score präzise zu machen, brauchen wir:
-
-1. Wie viele Schüler starten jährlich in HTL IT in Österreich?
-2. Wie viele schließen HTL IT erfolgreich mit Matura ab?
-3. Wie viele HTL-IT-Schüler treten zur Mathematik-Matura an?
-4. Wie viele bestehen Mathematik?
-5. Wie viele erreichen eine 2 oder besser?
-6. Wie sieht die Notenverteilung an der HTL Krems oder in vergleichbaren HTLs aus?
-7. Wie schwer war der konkrete Jahrgang / Prüfungstermin?
-
----
-
-## Provisional Percentile Logic
-
-Da exakte Notenverteilungen fehlen, verwenden wir eine vorsichtige Schätzung.
-
-### Ring 4: HTL Krems
-
-HTL Krems ist eine konkrete technische Schule mit etwa 900 Schülern und mehreren höheren Abteilungen.
-
-Provisional Ring Rank:
+Daraus folgt:
 
 ```text
-Gold / Platinum
+Note 2 oder besser = Top 20.7 %
 ```
 
-Reason:
-
-Technische höhere Schule mit Matura und Diplomprüfung ist bereits über einer allgemeinen Pflichtschul-/Durchschnittspopulation.
-
----
-
-### Ring 5: Informationstechnologie
-
-IT ist ein technischer Zweig mit Programmierung, Datenbanken, Netzwerktechnik und KI-Vertiefung.
-
-Provisional Ring Rank:
+Wenn man annimmt, dass die konkrete 2 ungefähr mittig in der 2er-Gruppe liegt:
 
 ```text
-Platinum
+Top ≈ 10.85 %
 ```
-
-Reason:
-
-IT erhöht Difficulty gegenüber nicht-technischen Zweigen.
 
 ---
 
-### Ring 6: Matura
+# Rank Interpretation
 
-Abschluss der HTL bedeutet Survival über die vollständige höhere technische Ausbildung.
+| Percentile | Rank |
+|---|---|
+| Top 25 % | Gold |
+| Top 15 % | Platinum |
+| Top 10 % | Emerald |
+| Top 5 % | Diamond |
 
-Provisional Ring Rank:
+---
+
+# Ring-by-Ring Evaluation
+
+| Ring | Einschätzung | Predicted Rank |
+|---|---|---|
+| Europa | nur Region/Server | kein direkter Rank |
+| Österreich | nationales Bildungssystem | Silver / Gold |
+| Technische BHS / HTL | erhöhte Difficulty | Gold / Platinum |
+| HTL Krems IT | technischer IT-Track mit KI | Platinum |
+| Reife- und Diplomprüfung | technische Matura + Diplom | Gold / Platinum |
+| HTL/HLT Mathematik | schwieriger technischer Core-Ring | Platinum predicted |
+| Mathematik Note 2 | konkrete Leistung | Gold floor / Platinum predicted |
+
+---
+
+# Interpretation
+
+Die Mathematik-2 alleine ist nicht Diamond.
+
+Der wichtige Punkt ist der vollständige Ring-Kontext:
 
 ```text
-Platinum / Emerald
+Europa
+→ Österreich
+→ HTL
+→ IT
+→ Matura
+→ Mathematik
+→ Note 2
 ```
 
-Reason:
-
-Nicht jeder, der eine HTL beginnt, schließt sie mit Matura ab.
-
----
-
-### Ring 7: Mathematik
-
-Mathematik ist ein Core-Fach in technischen Schulen.
-
-Provisional Ring Rank:
+Dadurch wird aus:
 
 ```text
-Emerald
+"Ich hatte eine 2"
 ```
 
-Reason:
-
-Mathematik in einer technischen Schule ist relevanter und schwieriger als in vielen nicht-technischen Bildungspfaden.
+Eine relative technische Performance innerhalb einer schwierigen technischen Population.
 
 ---
 
-### Ring 8: Note 2
+# Why not Diamond?
 
-Note 2 bedeutet deutlich über „bestanden“.
-
-Provisional Performance Rank:
+Diamond beginnt im Framework bei:
 
 ```text
-Diamond
+Top 5 %
 ```
 
-Reason:
-
-In einer technischen HTL eine 2 in Mathematik zu erreichen ist wahrscheinlich deutlich über Durchschnitt, aber ohne exakte Notenverteilung nicht sicher als Master einzuordnen.
-
----
-
-## Provisional Overall Education Score
-
-| Kategorie | Score | Rank | Confidence |
-|---|---:|---|---|
-| HTL Completion | 78 % | Diamond | Medium |
-| IT Branch Difficulty | 82 % | Diamond | Medium |
-| Mathematics Performance | 80 % | Diamond | Medium-Low |
-| Learning Efficiency | 84 % | Diamond / low Master | Low |
-| Overall Education Build | 80–84 % | Diamond | Medium-Low |
-
----
-
-## Current Classification
+Die vorhandenen öffentlichen Daten beweisen:
 
 ```text
-Education Build: Diamond
-Technical Education Build: Diamond
-Mathematics within HTL IT: Diamond provisional
+Top 20.7 % sicher
+Top ~10.85 % geschätzt
 ```
 
-### Not Master yet because:
+Für Diamond bräuchten wir zusätzlich:
 
-Master should require stronger proof, for example:
-
-- official percentile data
-- top 1 % grade distribution
-- awards / competitions
-- consistently top grades across several technical subjects
-- exceptional external validation
-
-### Why Diamond is justified provisionally:
-
-- HTL is a technical higher school.
-- IT is a difficult technical branch.
-- Matura means full completion.
-- Mathematics is a core technical subject.
-- Note 2 is strong relative performance.
+- exakte Punktezahl
+- Klassenrang
+- Schulrang
+- Notenverteilung der HTL Krems IT
+- Abstand zur Note 1
 
 ---
 
-## LoL Analogy
+# Sources
 
-```text
-Europa / Österreich / HTL IT = Server / Region
-Matura = Ranked Queue completed
-Mathematik = Role / Core Skill
-Note 2 = high performance result
-```
+- HTL Krems Informationstechnologie:
+https://www.htlkrems.ac.at/it/
 
-This is not Challenger, but it is clearly above average.
+- BMB technische Schulen:
+https://www.abc.berufsbildendeschulen.at/technische-gewerbliche-und-kunstgewerbliche-schulen
 
----
+- BMB Reife- und Diplomprüfung:
+https://www.abc.berufsbildendeschulen.at/reife-und-diplompruefung
 
-## Next Research Steps
+- Matura.gv.at Ergebnisse:
+https://www.matura.gv.at/srdp/ergebnisse
 
-- Search Statistik Austria / BMBWF for HTL completion numbers
-- Search SRDP/BHS mathematics result distributions
-- Ask school/class data if available
-- Estimate percentile from class-level distribution
-- Compare with other technical education paths
-
----
-
-## Notes
-
-This file should be updated once exact grade distributions or class/year-level data are available.
+- Statistik Austria Reife- und Diplomprüfungen:
+https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bildung/reife-und-diplompruefungen
